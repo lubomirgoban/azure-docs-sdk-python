@@ -14,7 +14,7 @@ summary: 'Async pipeline implementation.
   of the HTTP sender.'
 constructor:
   syntax: 'AsyncPipeline(transport, policies: List[AsyncHTTPPolicy | SansIOHTTPPolicy]
-    = None)'
+    | None = None)'
   parameters:
   - name: transport
     description: The async Http Transport instance.

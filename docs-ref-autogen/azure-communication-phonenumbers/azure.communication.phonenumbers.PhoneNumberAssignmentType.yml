@@ -8,8 +8,7 @@ summary: 'The assignment type of the phone numbers to search for. A phone number
   person, or to an application.'
 module: azure.communication.phonenumbers
 constructor:
-  syntax: PhoneNumberAssignmentType(value, names=None, *, module=None, qualname=None,
-    type=None, start=1, boundary=None)
+  syntax: PhoneNumberAssignmentType(value)
 inheritances:
 - builtins.str
 - enum.Enum
